@@ -1,1 +1,68 @@
-/* Add CSS styling here */
+
+*{
+    max-width: 100%;
+}
+
+header {
+    background-color: #A3A5C3;
+    padding:20px;
+    margin-bottom:15px;
+}
+
+button {
+    background-color: #A9D2D5;
+    padding: 5px 10px;
+    color: black;
+    border-style:ridge;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: lightslategray;
+    color: black;
+    border:black solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* .top img {
+    padding: 20px;
+    margin: 20px;  
+    border: 20px;
+} */
+
+.description {
+    padding: 20px;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+footer {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #A3A5C3;
+    padding:20px;
+    margin-bottom:15px;
+}
